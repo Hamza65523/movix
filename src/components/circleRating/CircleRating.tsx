@@ -3,7 +3,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 import "./style.scss";
-import { CircleRatingProps } from "./CircleRating.interface";
+import { CircleRatingProps } from "./CircleRating.type";
 
 
 const CircleRating: FC<CircleRatingProps> = ({ rating }) => {

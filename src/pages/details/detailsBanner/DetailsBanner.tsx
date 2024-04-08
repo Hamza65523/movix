@@ -13,7 +13,7 @@ import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import PlayIcon from "../Playbtn.js";
 import VideoPopup from "../../../components/videoPopup/VideoPopup.jsx";
-import { CrewMember } from "./DetailsBanner.interface.js";
+import { CrewMember } from "./DetailsBanner.type.js";
 
 
 

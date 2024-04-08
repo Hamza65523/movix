@@ -1,30 +1,82 @@
-# React + TypeScript + Vite
+# Movix Assigment Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built with Vite and TypeScript.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these instructions to get a local copy of the project up and running on your machine.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before you begin, make sure you have the following installed on your system:
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (version >= v18.18.2)
+- npm (version >= 9.8.1) 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd movix
+   ```
+
+3. Install dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+   or using yarn:
+
+   ```bash
+   yarn
+   ```
+
+### Development
+
+To run the project in development mode, use the following command:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+or
+
+```bash
+yarn dev
+```
+
+This command starts the development server and opens the project in your default web browser.
+
+### Building for Production
+
+To build the project for production, use the following command:
+
+```bash
+npm run build
+```
+
+or
+
+```bash
+yarn build
+```
+
+The production-ready build will be generated in the `dist` directory.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Replace `<repository-url>` with the actual URL of your Git repository.
+
+Feel free to add more sections or customize the README according to your project's specific requirements.

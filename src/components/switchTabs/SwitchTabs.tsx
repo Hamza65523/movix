@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 
 import "./style.scss";
-import { SwitchTabsProps } from "./SwitchTabs.interface";
+import { SwitchTabsProps } from "./SwitchTabs.type";
 
 
 const SwitchTabs: FC<SwitchTabsProps> = ({ data, onTabChange }) => {

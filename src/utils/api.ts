@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from "axios";
-import { ApiResponse, FetchDataFromApi, Headers } from "./api.interface";
+import { ApiResponse, FetchDataFromApi, Headers } from "./api.type";
 
 const BASE_URL: string = "https://api.themoviedb.org/3";
 const TMDB_TOKEN: string | undefined = import.meta.env.VITE_APP_TMDB_TOKEN;
