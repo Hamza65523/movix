@@ -18,7 +18,7 @@ Before you begin, make sure you have the following installed on your system:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Hamza65523/movix.git
    ```
 
 2. Navigate to the project directory:
@@ -77,6 +77,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Replace `<repository-url>` with the actual URL of your Git repository.
+Replace `https://github.com/Hamza65523/movix.git` with the actual URL of your Git repository.
 
 Feel free to add more sections or customize the README according to your project's specific requirements.
